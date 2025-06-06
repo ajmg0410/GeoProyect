@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#titulo-ejercicio {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#resultado {
+  font-size: 16px;
+  color: #222;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  #resultado {
+    font-size: 15px;
+  }
+
+  #titulo-ejercicio {
+    font-size: 22px;
+  }
+}
+.carousel-fade .carousel-item {
+  transition: opacity 1s ease-in-out;
+}
+.container.bienvenida {
+  margin-top: 15px;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}

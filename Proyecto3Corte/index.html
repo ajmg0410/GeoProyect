@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GeoProyect - Anthony Montañez</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    body {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+    <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8JUMzJUExcmJvbHxlbnwwfHwwfHx8MA%3D%3D"
+     alt="Logo"
+     style="height: 30px; width: auto; margin-right: 10px; border-radius: 4px;">      
+     GeoProyect
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="ejercicio1.html">Devolver cantidad de veces</a></li>
+        <li class="nav-item"><a class="nav-link" href="ejercicio2.html">Nombre, precio y categoría</a></li>
+        <li class="nav-item"><a class="nav-link" href="ejercicio3.html">Nombres Formateados</a></li>
+        <li class="nav-item"><a class="nav-link" href="ejercicio4.html">Palabras anagramas</a></li>
+        <li class="nav-item"><a class="nav-link" href="ejercicio5.html">Total de puntos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container bienvenida, mt-3">
+    <div class="text-center mb-4">
+    <h2 class="text-center">Bienvenido a GeoProyect</h2>
+    <p class="text-center">Por favor selecciona alguno de  los ejercicios que están arriba para comenzar.</p>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Eiche_bei_Graditz.jpg/1200px-Eiche_bei_Graditz.jpg" class="d-block w-100" alt="Imagen 1" style="max-height: 300px; object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="https://unjardinparami.com/wp-content/uploads/2020/04/4.arbol1.png" class="d-block w-100" alt="Imagen 2" style="max-height: 300px; object-fit: cover;">
+      </div>
+            <div class="carousel-item">
+        <img src="https://jardinessinfronteras.com/wp-content/uploads/2016/11/arbol-v.jpg?w=816" class="d-block w-100" alt="Imagen 2" style="max-height: 300px; object-fit: cover;">
+      </div>
+            <div class="carousel-item">
+        <img src="https://www.fundacionaquae.org/wp-content/uploads/2018/03/arboles-e1569184563522.jpg" class="d-block w-100" alt="Imagen 2" style="max-height: 300px; object-fit: cover;">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <div class="container mt-4">
+  <div class="card mx-auto" style="max-width: 400px;">
+    <div class="card-body">
+      <h4 class="card-title text-center mb-4">Registro de Usuario</h4>
+      <form>
+        <div class="form-group">
+          <label for="fullName">Nombres e apellidos</label>
+          <input type="text" class="form-control" id="fullName" placeholder="Pepe Marin">
+        </div>
+        <div class="form-group">
+          <label for="email">Correo</label>
+          <input type="email" class="form-control" id="email" placeholder="example@mail.com">
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña</label>
+          <input type="password" class="form-control" id="password" placeholder="••••••••">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Registro</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
